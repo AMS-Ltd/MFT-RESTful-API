@@ -12,6 +12,7 @@ If this command is 'not found' then attempt to locate your python environment an
 `/usr/bin/python/Scripts`
 
 When inside the directory run the following command that corresponds to your operating system:
+
 `pip.exe install requests`
 
 OR
