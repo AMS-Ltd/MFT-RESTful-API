@@ -10,7 +10,10 @@ If this command is 'not found' then attempt to locate your python environment an
 `C:\Users\<user>\AppData\Local\Programs\Python\Python<version>\Scripts`
 #### Linux / MacOS:
 `/usr/bin/python/Scripts`
+
 When inside the directory run the following command that corresponds to your operating system:
 `pip.exe install requests`
+
 OR
+
 `./pip.exe install requests`
