@@ -8,6 +8,6 @@ REST API provides a powerful, convenient, and simple Web services API for intera
 ## Building
 
 ## Running Examples
-In order to be able run an example you will need access to a cloud or on premise ams-mft login. If you would like to explore either this RESTful API or the .NETClient and don't have access to a AMS-MFT account then please contact our support team who will be happy to arrange you a free account for your testing - support@ams-ltd.com.
+In order to be able run an example you will need access to a cloud or on premise AMS-MFT login. If you would like to explore either this RESTful API or the .NETClient and don't have access to a AMS-MFT account then please contact our support team who will be happy to arrange you a free account for your testing - support@ams-ltd.com.
 
 ## License
