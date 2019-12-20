@@ -6,14 +6,17 @@ When MFT is setup and running, it is recommended to first define the baseURL whi
 `baseURL = "https://<companyName>.ams-mft.com/api/api/v2/client/"`
 
 This variable can be later called upon when sending various requests across the entire platform. For example:
-```requestPath = "sent/transfers?transferid=xxxx"
+```
+requestPath = "sent/transfers?transferid=xxxx"
 requestPath = "transfers"
 requestPath = "transfers/xxxx/send"
 
 URL = baseURL + requestPath
 ```
 
-`>>> URL: https://<companyName>.ams-mft.com/api/api/v2/client/transfers/xxxx/send`
+```
+>>> URL: https://<companyName>.ams-mft.com/api/api/v2/client/transfers/xxxx/send
+```
 ## Modules
 When setting up your MFT-API using Python, we recommend the 'Requests' module is used.
 This can be easily installed using pip, using the following command:
