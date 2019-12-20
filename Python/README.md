@@ -10,7 +10,8 @@ This variable can be later called upon when sending various requests across the 
 requestPath = "transfers"
 requestPath = "transfers/xxxx/send"
 
-URL = baseURL + requestPath```
+URL = baseURL + requestPath
+```
 
 `>>> URL: https://<companyName>.ams-mft.com/api/api/v2/client/transfers/xxxx/send`
 ## Modules
