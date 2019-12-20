@@ -1,6 +1,20 @@
 # Setup Requirements
 In order to be able run an example you will need access to a cloud or on premise AMS-MFT login. If you would like to explore either this RESTful API or the .NETClient and don't have access to a AMS-MFT account then please contact our support team who will be happy to arrange you a free account for your testing - support@ams-ltd.com.
 
+When MFT is setup and running, it is recommended to first define the baseURL which points to your MFT login portal.
+
+`baseURL = "https://<companyName>.ams-mft.com/api/api/v2/client/"`
+
+This variable can be later called upon when sending various requests across the entire platform. For example:
+
+`requestPath = "sent/transfers?transferid=xxxx"
+requestPath = "transfers/xxxx/send"
+requestPath = "transfers"
+requestPath = "transfers?transferid=xxxx/files?"
+requestPath = "draft/transfers?"?pagesize=1&pagenumber=1"
+
+URL = baseURL + requestPath`
+
 ## Modules
 When setting up your MFT-API using Python, we recommend the 'Requests' module is used.
 This can be easily installed using pip, using the following command:
