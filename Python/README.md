@@ -7,11 +7,11 @@ When MFT is setup and running, it is recommended to first define the baseURL whi
 
 This variable can be later called upon when sending various requests across the entire platform. For example:
 ```
-requestPath = "sent/transfers?transferid=xxxx"
-requestPath = "transfers"
-requestPath = "transfers/xxxx/send"
+requestPath1 = "sent/transfers?transferid=xxxx"
+requestPath2 = "transfers"
+requestPath3 = "transfers/xxxx/send"
 
-URL = baseURL + requestPath
+URL = baseURL + requestPath3
 ```
 
 ```
