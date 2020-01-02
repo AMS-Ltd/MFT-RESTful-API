@@ -19,9 +19,9 @@ URL = baseURL + requestPath3
 ```
 ## Modules
 When setting up your MFT-API using Python, we recommend the 'Requests' module is used.
-This can be easily installed using pip, using the following command:
+This can be easily installed using pip, using either of the following commands:
 
-`pip install requests`
+`pip install requests` **OR** `python -m pip install requests`
 ### Troubleshooting
 If this command is 'not found' then attempt to locate your Python environment and navigate to the 'Scripts' directory. The default Scripts directory location for Python 3.6 onwards is as follows, depending on your operating system. Once inside the directory run the corresponding command to install the 'Requests' Module.
 #### Windows:
